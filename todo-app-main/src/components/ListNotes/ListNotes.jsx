@@ -13,7 +13,12 @@ export const ListNotes = ({ notes }) => {
     <div className={styles.list}>
       {notes.map((note) => {
         return (
-          <Note key={note.id} title={note.content} toDelete={deleteNote} />
+          <Note
+            key={note.id}
+            title={note.content}
+            toDelete={deleteNote}
+            completed={note.complete}
+          />
         );
       })}
       <div className={styles.counter}>

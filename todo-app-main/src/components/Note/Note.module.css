@@ -14,16 +14,23 @@
 .noteText p {
   font-size: 0.85rem;
 }
+.activeText p {
+  color: hsl(233, 11%, 84%);
+  text-decoration: line-through;
+}
 button {
   border: none;
 }
 .noteCheck {
   margin-right: 1rem;
   padding: 0;
-  background: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
   border-radius: 50%;
   width: 1.2rem;
   height: 1.2rem;
+}
+.noteCheckActive {
+  background: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+  position: relative;
 }
 .noteDeleted {
   width: 1rem;
