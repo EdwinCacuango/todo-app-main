@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+body {
+  margin: 0;
+  background-color: hsl(0, 0%, 98%);
+  min-width: 375px;
+}
+.App {
+  font-family: "Josefin Sans", sans-serif;
+  color: hsl(235, 19%, 35%);
+  background: url("./bg-mobile-light.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 0 1.625rem;
+  z-index: 1;
+  min-height: 100vh;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title h1 {
+  margin: 2.875rem 0 1rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+.instruction {
+  text-align: center;
+  color: hsl(236, 9%, 61%);
+  margin-top: 2.75rem;
+  margin-bottom: 4.5625rem;
+}
