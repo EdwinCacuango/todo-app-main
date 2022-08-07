@@ -7,14 +7,18 @@ body {
 }
 .App {
   width: 100%;
+  z-index: 1;
+  min-height: 100vh;
+  /* Font styles */
   font-family: "Josefin Sans", sans-serif;
   color: hsl(235, 19%, 35%);
+  /* BG styles */
   background: url("/bg-mobile-light.jpg");
   background-repeat: no-repeat;
   background-size: contain;
+}
+.main {
   padding: 0 1.4rem;
-  z-index: 1;
-  min-height: 100vh;
 }
 @media (min-width: 390px) {
   .App {

@@ -7,14 +7,16 @@ import { NewNote } from "./components/NewNote/NewNote";
 function App() {
   return (
     <div className="App">
-      <div className="title">
-        <h1>To do</h1>
-        <img src="./icon-moon.svg" />
+      <div className="main">
+        <div className="title">
+          <h1>To do</h1>
+          <img src="./icon-moon.svg" />
+        </div>
+        <NewNote />
+        <ListNotes />
+        <Filters></Filters>
+        <p className="instruction">Drag and drop to reorder list</p>
       </div>
-      <NewNote />
-      <ListNotes />
-      <Filters></Filters>
-      <p className="instruction">Drag and drop to reorder list</p>
     </div>
   );
 }
