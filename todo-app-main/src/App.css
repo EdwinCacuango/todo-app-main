@@ -3,16 +3,23 @@ body {
   margin: 0;
   background-color: hsl(0, 0%, 98%);
   min-width: 375px;
+  box-sizing: border-box;
 }
 .App {
+  width: 100%;
   font-family: "Josefin Sans", sans-serif;
   color: hsl(235, 19%, 35%);
   background: url("/bg-mobile-light.jpg");
   background-repeat: no-repeat;
   background-size: contain;
-  padding: 0 1.625rem;
+  padding: 0 1.4rem;
   z-index: 1;
   min-height: 100vh;
+}
+@media (min-width: 390px) {
+  .App {
+    padding: 0 2rem;
+  }
 }
 .title {
   display: flex;
