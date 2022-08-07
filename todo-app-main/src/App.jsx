@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { ListNotes } from "./components/ListNotes/ListNOtes";
+import { ListNotes } from "./components/ListNotes/ListNotes";
 import { Filters } from "./components/Filters/Filters";
 import { NewNote } from "./components/NewNote/NewNote";
 
