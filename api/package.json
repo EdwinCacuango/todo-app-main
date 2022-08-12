@@ -1,5 +1,5 @@
 {
-  "name": "todo-app-main",
+  "name": "api",
   "version": "1.0.0",
   "description": "![Design preview for the Todo app coding challenge](./design/desktop-preview.jpg)",
   "main": "index.js",
@@ -23,11 +23,6 @@
     "express": "^4.18.1"
   },
   "devDependencies": {
-    "eslint": "^8.21.0",
-    "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-n": "^15.2.4",
-    "eslint-plugin-promise": "^6.0.0",
     "nodemon": "^2.0.19"
   }
 }
