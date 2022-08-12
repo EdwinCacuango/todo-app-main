@@ -15,4 +15,5 @@
 .DS_Store
 .prettierignore
 
+# Avoid node modules
 /node_modules
